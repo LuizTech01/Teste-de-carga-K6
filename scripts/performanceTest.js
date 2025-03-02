@@ -11,8 +11,8 @@ export const options = {
 }
 
 export default function () {
-    const USER = `${Math.random()}@mail.com`
-    const PASS = 'user123'
+    const USER = `${Math.random()}@mail.com`;
+    const PASS = 'user123';
     const BASE_URL = 'https://test-api.k6.io';
 
     console.log( USER + PASS);
